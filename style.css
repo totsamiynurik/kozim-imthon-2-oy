@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+    body {
+      font-family: 'Open Sans', sans-serif;
+    };
+    }
+    .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    }
+    .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .nav__list{
+    display: flex;
+    gap:128px;
+    }
+    .nav__list :hover{
+        color: red;
+        transition: 0.5s;
+    }
+    .div{background-image: url(image\ 4.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    }
+    .text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    }   
+    .div2{
+    display: flex;
+    gap: 100px;
+background-color: white;
+    }
+    .h1{
+text-align: center;
+    }
+
+
+.h2{
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+}
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.map {
+    width: 50%;
+}
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+}
+.form-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: green;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f8b400;
+}
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
